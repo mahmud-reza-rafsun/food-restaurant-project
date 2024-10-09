@@ -172,11 +172,12 @@
     cursor: pointer;
 }
 .t-right .title {
-    font-size: 29px;
+    font-size: 36px;
     padding-bottom: 16px;
+    margin-left: 23px;
 }
 .t-right .subtitle {
-    font-size: 16px;
+    font-size: 18px;
     color: rgb(16, 16, 16);
     opacity: 0.6;
     padding-bottom: 28px;
