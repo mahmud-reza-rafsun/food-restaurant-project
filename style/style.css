@@ -163,6 +163,14 @@
     color: rgb(16, 16, 16);
     opacity: 0.7;
 }
+.socal-icon-test{
+    font-size: 30px;
+    padding: 26px 0;
+}
+.socal-icon-test i{
+    padding: 0 10px;
+    cursor: pointer;
+}
 .t-right .title {
     font-size: 29px;
     padding-bottom: 16px;
@@ -180,9 +188,56 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 .dis-card .card {
     border: 1px dashed #111;
     padding: 0px 51px;
     border-radius: 15px;
+}
+
+/* footer section styling */
+
+#footer{
+    height: 400px;
+    background: linear-gradient(
+        rgb(212, 212, 212) -5%,
+        rgba(255, 255, 255, -10%) 300%),
+        url("../assets/social-bg.png") center center;
+    background-size: cover;
+    image-resolution: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.footer-sec .title {
+    font-size: 33px;
+    padding-bottom: 15px;
+    line-height: 46px;
+}
+.footer-sec .subtitle {
+    font-size: 20px;
+}
+.footer-sec .socal-m{
+    width: 800px;
+    margin: auto;
+    padding: 15px 0;
+    border-top: 1px solid #585858;
+    border-bottom: 1px solid #585858;
+    margin-top: 30px;
+}
+.footer-sec .socal-m span{
+    font-size: 21px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    opacity: 0.7;
+}
+.socal-icon-footer{
+    font-size: 30px;
+    padding: 26px 0;
+}
+.socal-icon-footer i{
+    padding: 0 10px;
+    cursor: pointer;
 }
